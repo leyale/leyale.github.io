@@ -1,0 +1,58 @@
+{"Data":[
+	{
+		"label":"入门",
+		"title":"代码入门",
+		"content":"前端开发及IT行业、HTML+CSS+JavaScript 简介、开发工具：PhotoShop \ Dreamveaver+Sublime+HBuilder...  Browser（Chrome、Firefox、Safari、IE及国产系列...）、标签（单标签、标签对）、页面基本结构、文档声明、编码声明、style引入、常见CSS合集：width \ height \ border \ background \ font \ padding \ margin、盒模型、复合样式…",
+		"img":[
+			{
+				"link":"../courseImg/css1/css1-3-z.html",
+				"src":"../courseImg/css1/hemoxing_60_60.png",
+				"title":"盒模型练习"
+			},
+			{
+				"link":"../courseImg/css1/css1-2-z.html",
+				"src":"../courseImg/css1/bg_60_60.png",
+				"title":"网易模块背景"
+			},
+			{
+				"link":"../courseImg/css1/css1-4-z.html",
+				"src":"../courseImg/css1/163_60_60.png",
+				"title":"课后作业：网易产品模块"
+			}
+		],
+	},
+	{
+		"label":["标签","浮动",],
+		"contentLeft":{
+			"title":"标签及特性、选择器",
+			"content":"HTML5标签：header、article、aside、section、footer、nav、h1-h6、p、ul、ol、li、img、dl、dt、dd...绝对路径、相对路径、标签语义化、语义化优点、标签嵌套规范、SEO、选择器：id、class、类型选择、包含选择、群组选择、通配符、选择器优先级、标签样式初始化订制方案、超链接及伪类划分、标签类型划分及特性、inline、inline-block、block...",
+			"img":[
+				{
+					"link":"../courseImg/css2/css2-1-s.html",
+					"src":"../courseImg/css2/sk_60_60.png",
+					"title":"标签语义与结构划分"
+				},
+			]
+		},
+	},
+	{
+		"title":"代码入门",
+		"content":"前端开发及IT行业、HTML+CSS+JavaScript 简介、开发工具：PhotoShop \ Dreamveaver+Sublime+HBuilder...  Browser（Chrome、Firefox、Safari、IE及国产系列...）、标签（单标签、标签对）、页面基本结构、文档声明、编码声明、style引入、常见CSS合集：width \ height \ border \ background \ font \ padding \ margin、盒模型、复合样式…",
+		"img":[],
+	},
+	{
+		"title":"代码入门",
+		"content":"前端开发及IT行业、HTML+CSS+JavaScript 简介、开发工具：PhotoShop \ Dreamveaver+Sublime+HBuilder...  Browser（Chrome、Firefox、Safari、IE及国产系列...）、标签（单标签、标签对）、页面基本结构、文档声明、编码声明、style引入、常见CSS合集：width \ height \ border \ background \ font \ padding \ margin、盒模型、复合样式…",
+		"img":[],
+	},
+	{
+		"title":"代码入门",
+		"content":"前端开发及IT行业、HTML+CSS+JavaScript 简介、开发工具：PhotoShop \ Dreamveaver+Sublime+HBuilder...  Browser（Chrome、Firefox、Safari、IE及国产系列...）、标签（单标签、标签对）、页面基本结构、文档声明、编码声明、style引入、常见CSS合集：width \ height \ border \ background \ font \ padding \ margin、盒模型、复合样式…",
+		"img":[],
+	},
+	{
+		"title":"代码入门",
+		"content":"前端开发及IT行业、HTML+CSS+JavaScript 简介、开发工具：PhotoShop \ Dreamveaver+Sublime+HBuilder...  Browser（Chrome、Firefox、Safari、IE及国产系列...）、标签（单标签、标签对）、页面基本结构、文档声明、编码声明、style引入、常见CSS合集：width \ height \ border \ background \ font \ padding \ margin、盒模型、复合样式…",
+		"img":[],
+	}
+],"JsonRequestBehavior":0}

@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'less@last' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.5
+4 verbose install initial load of C:\Users\小龙\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\小龙\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'less@last', null ]
+7 verbose cache add spec less@last
+8 silly cache add parsed spec { raw: 'less@last',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'less',
+8 silly cache add   rawSpec: 'last',
+8 silly cache add   spec: 'last',
+8 silly cache add   type: 'tag' }
+9 silly addNamed less@last
+10 verbose addNamed "last" is being treated as a dist-tag for less
+11 info addNameTag [ 'less', 'last' ]
+12 silly mapToRegistry name less
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/less
+16 verbose addNameTag registry:https://registry.npmjs.org/less not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/less
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 16:11:00
+20 verbose request id 72877cc83e8b5f0e
+21 verbose etag "5G3PF685I1RSOXLKJJOOKN4NQ"
+22 http request GET https://registry.npmjs.org/less
+23 info retry will retry, error on last attempt: Error: read ECONNRESET
+24 info attempt registry request try #2 at 16:12:09
+25 verbose etag "5G3PF685I1RSOXLKJJOOKN4NQ"
+26 http request GET https://registry.npmjs.org/less
+27 http 200 https://registry.npmjs.org/less
+28 silly get cb [ 200,
+28 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly get     etag: '"3ERBW7B5SO590IEHYUDJ17IFC"',
+28 silly get     'content-type': 'application/json',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     'content-length': '98627',
+28 silly get     'accept-ranges': 'bytes',
+28 silly get     date: 'Mon, 30 Nov 2015 08:12:13 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     age: '11',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-lcy1128-LCY',
+28 silly get     'x-cache': 'HIT',
+28 silly get     'x-cache-hits': '1',
+28 silly get     'x-timer': 'S1448871133.438340,VS0,VE0',
+28 silly get     vary: 'Accept' } ]
+29 verbose get saving less to C:\Users\小龙\AppData\Roaming\npm-cache\registry.npmjs.org\less\.cache.json
+30 silly addNameTag next cb for less with tag last
+31 verbose stack Error: No compatible version found: less@'last'
+31 verbose stack Valid install targets:
+31 verbose stack ["1.0.10","1.0.11","1.0.14","1.0.18","1.0.19","1.0.21","1.0.32","1.0.36","1.0.5","1.0.40","1.0.41","1.0.44","1.1.0","1.1.1","1.1.2","1.1.4","1.1.5","1.1.6","1.2.0","1.2.1","1.2.2","1.3.0","1.3.1","1.3.2","1.3.3","1.4.0-b1","1.4.0-b2","1.4.0-b3","1.4.0-b4","1.4.0","1.4.1","1.4.2","1.5.0-b1","1.5.0-b2","1.5.0-b3","1.5.0-b4","1.5.0","1.5.1","1.6.0","1.6.1","1.6.2","1.6.3","1.7.0","1.7.1","1.7.3","1.7.4","1.7.5","2.0.0-b1","2.0.0-b2","2.0.0-b3","2.0.0","2.1.0","2.1.1","2.1.2","2.2.0","2.3.0","2.3.1","2.4.0","2.5.0","2.5.1","2.5.2","2.5.3"]
+31 verbose stack
+31 verbose stack     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:274:12)
+31 verbose stack     at next (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:94:10)
+31 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+31 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+31 verbose stack     at fixName (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:29:5)
+31 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:173:7)
+31 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+32 verbose cwd C:\workSpace\newOfficialWebsite\css
+33 error Windows_NT 6.3.9600
+34 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "less@last"
+35 error node v0.12.5
+36 error npm  v2.11.2
+37 error code ETARGET
+38 error notarget No compatible version found: less@'last'
+38 error notarget Valid install targets:
+38 error notarget ["1.0.10","1.0.11","1.0.14","1.0.18","1.0.19","1.0.21","1.0.32","1.0.36","1.0.5","1.0.40","1.0.41","1.0.44","1.1.0","1.1.1","1.1.2","1.1.4","1.1.5","1.1.6","1.2.0","1.2.1","1.2.2","1.3.0","1.3.1","1.3.2","1.3.3","1.4.0-b1","1.4.0-b2","1.4.0-b3","1.4.0-b4","1.4.0","1.4.1","1.4.2","1.5.0-b1","1.5.0-b2","1.5.0-b3","1.5.0-b4","1.5.0","1.5.1","1.6.0","1.6.1","1.6.2","1.6.3","1.7.0","1.7.1","1.7.3","1.7.4","1.7.5","2.0.0-b1","2.0.0-b2","2.0.0-b3","2.0.0","2.1.0","2.1.1","2.1.2","2.2.0","2.3.0","2.3.1","2.4.0","2.5.0","2.5.1","2.5.2","2.5.3"]
+38 error notarget
+38 error notarget This is most likely not a problem with npm itself.
+38 error notarget In most cases you or one of your dependencies are requesting
+38 error notarget a package version that doesn't exist.
+39 verbose exit [ 1, true ]
