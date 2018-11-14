@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>从我的全世界走过</title>
 
-<link href="css/course.css" rel="stylesheet" type="text/css">
+<link href="css/index.css" rel="stylesheet" type="text/css">
 <script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 <style>
     .text img{
@@ -14,8 +14,32 @@
 </style>
 </head>
 <body>
+<div class="lines">
+    <div class="line1">
+        <div class="line11 progress"></div>
+        <div class="arc1 btn">轻柔</div>
+    </div>
 
+    <div class="line2">
+        <div class="line22 progress"></div>
+        <div class="arc2 btn">节奏</div>
+    </div>
 
+    <div class="line3">
+        <div class="line33 progress"></div>
+        <div class="arc3 btn">DJ</div>
+    </div>
+
+    <div class="line4">
+        <div class="line44 progress"></div>
+        <div class="arc4 btn">纯音乐</div>
+    </div>
+
+    <div class="line5">
+        <div class="line55 progress"></div>
+        <div class="arc5 btn" id="btn5">停止</div>
+    </div>
+</div>
 <div class="book" id="bookTitle">
 
 	<div class="title"><span>白驹沧海</span></div>
@@ -516,8 +540,8 @@
 <script src="js/startMove.js"></script>
 <script src="js/event.js"></script>
 <script src="js/eventLibrary.js"></script>
+<script src="js/music.js"></script>
 <script>
-
 
 var book = {
     // --------------- 初始化相册，把需要动态设置的样式等等都设置好 ---------------
