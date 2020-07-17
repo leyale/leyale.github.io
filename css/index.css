@@ -22,7 +22,7 @@ form {
 }
 body {
   font-family: Arial, 'Microsoft YaHei';
-  color: #666;
+  color: #999;
   overflow-x: hidden;
   position: relative;
   min-width: 1600px;
@@ -2001,16 +2001,16 @@ a {
 				-webkit-transform:rotateY(-180deg) translateX(12px);
 				-moz-transform:rotateY(-180deg) translateX(12px);
 				.event{
-					transform:translateZ(-3px); 
+					transform:translateZ(-3px);
 					-webkit-transform:translateZ(-3px);
-					-moz-transform:translateZ(-3px);	
+					-moz-transform:translateZ(-3px);
 				}
 				.bookContentLeft{ z-index:0;}
 				.bookContentRight{ z-index:1;}
 				.tabMain{
-					transform:translateZ(2px); 
+					transform:translateZ(2px);
 					-webkit-transform:translateZ(2px);
-					-moz-transform:translateZ(2px);	
+					-moz-transform:translateZ(2px);
 				}
 				.tab{&.left{ z-index:1;}&.right{ z-index:0;}}*/
 }
@@ -2224,21 +2224,20 @@ a {
 .line1{ width:2px; height:160px; background:#FFF; position:absolute; top:0px; left:30%; }
 			.line11{ width:2px; height:0%; background:#fff; position:absolute; top:0px; left:0px; }
 			.arc1{ width:80px; height:80px; border-radius:50%; background:#FFF; position:absolute; top:160px; left:-39px; line-height:80px; z-index:9; cursor:pointer; text-align:center; -webkit-transform:translateY(-50px);}
-			
+
 			.line2{ width:2px; height:240px; background:#FFF; position:absolute; top:0px; left:40%;}
 			.line22{ width:2px; height:0%; background:#fff; position:absolute; top:0px; left:0px; }
 			.arc2{ width:110px; height:110px; border-radius:50%; background:#FFF; position:absolute; top:240px; left:-54px; line-height:110px; z-index:9; cursor:pointer; text-align:center; -webkit-transform:translateY(-50px);}
-			
+
 			.line3{ width:2px; height:100px; background:#FFF; position:absolute; top:0px; left:50%;}
 			.line33{ width:2px; height:0%; background:#fff; position:absolute; top:0px; left:0px; }
 			.arc3{ width:60px; height:60px; border-radius:50%; background:#FFF; position:absolute; top:100px; left:-29px; line-height:60px; z-index:9; cursor:pointer; text-align:center; -webkit-transform:translateY(-50px);}
-			
+
 			.line4{ width:2px; height:200px; background:#FFF; position:absolute; top:0px; left:60%;}
 			.line44{ width:2px; height:0%; background:#fff; position:absolute; top:0px; left:0px; }
 			.arc4{ width:80px; height:80px; border-radius:50%; background:#FFF; position:absolute; top:200px; left:-39px; line-height:80px; z-index:9; cursor:pointer; text-align:center; -webkit-transform:translateY(-50px);}
-			
+
 			.line5{ width:2px; height:140px; background:#FFF; position:absolute; top:0px; left:70%;}
 			.line55{ width:2px; height:0%; background:#fff; position:absolute; top:0px; left:0px; }
 			.arc5{ width:100px; height:100px; border-radius:50%; background:#FFF; position:absolute; top:140px; left:-50px; line-height:100px; z-index:9; cursor:pointer; text-align:center; -webkit-transform:translateY(-50px);}
 			.active{ box-shadow:1px 1px 5px 0px rgba(0,0,0,0.2); color:#FFF;}
-			
